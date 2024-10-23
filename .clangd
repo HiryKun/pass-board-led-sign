@@ -1,0 +1,10 @@
+CompileFlags:
+    Add:
+        - -I/usr/arm-none-eabi/include/c++/14.1.0
+        - -I/usr/arm-none-eabi/include/c++/14.1.0/arm-none-eabi/thumb/v6-m/nofp
+        - -I/usr/arm-none-eabi/include/c++/14.1.0/backward
+        - -I/usr/lib/gcc/arm-none-eabi/14.1.0/include
+        - -I/usr/lib/gcc/arm-none-eabi/14.1.0/include-fixed
+        - -I/usr/arm-none-eabi/include
+    CompilationDatabase: ./build/Debug
+    Compiler: /usr/bin/arm-none-eabi-g++
